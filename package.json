@@ -6,7 +6,8 @@
 	"license": "MIT",
 	"dependencies": {
 		"imagemin-jpeg-recompress": "^5.1.0",
-		"npm": "^6.7.0"
+		"npm": "^6.7.0",
+		"uglify-js": "^3.5.15"
 	},
 	"scripts": {
 		"gulp": "gulp"

@@ -1,3 +1,16 @@
-.page-body{
+.page-body {
   overflow-x: hidden;
+  font-family: "Roboto", arial, sans-serif;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  &::-webkit-scrollbar-track {
+    background: gold;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: aqua;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }

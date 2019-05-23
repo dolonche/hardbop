@@ -1,0 +1,23 @@
+.page-header {
+  &__wrapper {
+    position: fixed;
+    width: 100vw;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    z-index: 3001;
+  }
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &__mail {
+    text-decoration: none;
+    color: #000;
+  }
+}
