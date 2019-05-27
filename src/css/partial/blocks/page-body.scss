@@ -3,14 +3,15 @@
   font-family: "Roboto", arial, sans-serif;
   &::-webkit-scrollbar {
     width: 0;
+    display: none;
   }
-  &::-webkit-scrollbar-track {
-    background: gold;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: aqua;
-  }
-  &::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+//  &::-webkit-scrollbar-track {
+//    background: gold;
+//  }
+//  &::-webkit-scrollbar-thumb {
+//    background: aqua;
+//  }
+//  &::-webkit-scrollbar-thumb:hover {
+//    background: #555;
+//  }
 }

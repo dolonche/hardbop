@@ -108,7 +108,7 @@ gulp.task('js:build', function () {
   gulp.src(path.src.js) //Найдем наш main файл
     .pipe(sourcemaps.init()) //Инициализируем sourcemap
     .pipe(uglify()) //Сожмем наш js
-    .pipe(sourcemaps.write()) //Пропишем карты
+//    .pipe(sourcemaps.write()) //Пропишем карты
     .pipe(rename({
       suffix: '.min'
     })) //добавим суффикс .min к выходному файлу

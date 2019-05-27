@@ -17,7 +17,13 @@
   display: flex;
   justify-content: space-between;
   &__mail {
-    text-decoration: none;
-    color: #000;
+    padding-right: 30px;
+    a {
+      text-decoration: none;
+      color: #000;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
   }
 }
