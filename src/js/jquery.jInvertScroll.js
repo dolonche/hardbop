@@ -79,7 +79,6 @@
       var totalHeight = $(document).height();
       var winHeight = $(this).height();
       var winWidth = $(this).width();
-      console.log(currY + '+' + totalHeight + '+' + winHeight + '+' + winWidth);
       // Current percentual position
       var percent = (currY / (totalHeight - winHeight)).toFixed(4);
 

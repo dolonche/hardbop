@@ -9,6 +9,14 @@
     padding-top: 40px;
     padding-bottom: 40px;
     z-index: 3001;
+    transform: translateY(-100%);
+    transition-timing-function: ease-in;
+    opacity: 0;
+    &--open {
+      transition: 0.7s all;
+      transform: translateY(0%);
+      opacity: 1;
+    }
   }
   box-sizing: border-box;
   padding-left: 40px;
@@ -24,6 +32,41 @@
       padding-top: 20px;
       padding-bottom: 20px;
       box-sizing: border-box;
+    }
+  }
+}
+
+@media #{$tablet-widths} {
+  .page-header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    &__wrapper {
+      opacity: 1;
+      transform: translateY(0%);
+      position: relative;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-top: 10px;
+      padding-bottom: 0;
+      background-color: #fff;
+    }
+    &__mail {
+      display: none;
+      position: fixed;
+      top: 100%;
+      width: 100%;
+      background-color: #fff;
+      padding-right: 0;
+      padding-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+      a {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
     }
   }
 }
